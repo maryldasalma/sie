@@ -1,0 +1,117 @@
+/* style.css */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for drill-down charts */
+#drilldown-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Heading style */
+h1, h2 {
+    text-align: center;
+}
+
+/* Button style */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Chart.js styles */
+.chart-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Colors for chart bars */
+.chart-colors {
+    --color1: #FF5733;
+    --color2: #33FF57;
+    --color3: #5733FF;
+    --color4: #33A7FF;
+    --color5: #FF33A7;
+    --color6: #A7FF33;
+    --color7: #33FFA7;
+    --color8: #FFA733;
+    --color9: #A733FF;
+    --color10: #FF33A7;
+}
+
+/* Override Chart.js default colors */
+.chart-colors .chartjs-color-0 {
+    background-color: var(--color1);
+}
+
+.chart-colors .chartjs-color-1 {
+    background-color: var(--color2);
+}
+
+.chart-colors .chartjs-color-2 {
+    background-color: var(--color3);
+}
+
+.chart-colors .chartjs-color-3 {
+    background-color: var(--color4);
+}
+
+.chart-colors .chartjs-color-4 {
+    background-color: var(--color5);
+}
+
+.chart-colors .chartjs-color-5 {
+    background-color: var(--color6);
+}
+
+.chart-colors .chartjs-color-6 {
+    background-color: var(--color7);
+}
+
+.chart-colors .chartjs-color-7 {
+    background-color: var(--color8);
+}
+
+.chart-colors .chartjs-color-8 {
+    background-color: var(--color9);
+}
+
+.chart-colors .chartjs-color-9 {
+    background-color: var(--color10);
+}
